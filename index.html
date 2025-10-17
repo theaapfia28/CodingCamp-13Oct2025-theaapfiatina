@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome | To-Do List</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body class="start-page">
+  <div class="start-container">
+    <h1>Welcome to Your To-Do List </h1>
+    <p>Stay organized and keep track of your daily tasks</p>
+    <img src="image/cat2.gif" alt="cute animation" class="middle-gif2">
+    <button id="startBtn">Start</button>
+  </div>
+
+  <script>
+    document.getElementById("startBtn").addEventListener("click", function() {
+      window.location.href = "todo.html";
+    });
+  </script>
+</body>
+</html>
